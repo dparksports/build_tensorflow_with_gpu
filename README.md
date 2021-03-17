@@ -1,5 +1,5 @@
 # build_tensorflow_with_cuda
-# Building TensorFlow from source (TF 2.4.1, Ubuntu 20.04)
+Building TensorFlow from source (TF 2.4.1, Ubuntu 20.04)
 
 ## Why build from source?
 The TensorFlow official instructions: https://www.tensorflow.org/install.
