@@ -28,9 +28,10 @@ Build TensorFlow in the following configuration:
 
 ### Installing the NVIDIA driver, CUDA and cuDNN
 
-Tensorflow2 with GPU support has only complication of the CUDA compability.
-Tensorflow2 requires from CUDA version 10.0 and CUDNN 7.6.5
-Important: do not upgrade the nvidia driver.  Otherwise, this causes the entire installation to be incompatible.
+- Tensorflow2 with GPU support has only complication of the CUDA compability.
+- Tensorflow2 requires from CUDA version 10.0 and CUDNN 7.6.5
+- Important: do not upgrade the nvidia driver.  
+- Otherwise, this causes the entire installation to be incompatible.
 
 ```
 
