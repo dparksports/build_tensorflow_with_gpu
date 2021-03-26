@@ -18,7 +18,7 @@ Now that we have done all the above, we can start doing some cool stuff. Here we
 Preparing the Workspace
 -----------------------
 
-1. If you have followed the tutorial, you should by now have a folder ``Tensorflow``, placed under ``<PATH_TO_TF>`` (e.g. ``C:/Users/sglvladi/Documents``), with the following directory tree:
+1. If you have followed the tutorial, you should by now have a folder ``Tensorflow``, placed under ``<PATH_TO_TF>`` (e.g. ``C:/Users/dp/Documents``), with the following directory tree:
 
     .. code-block:: default
 
@@ -285,7 +285,7 @@ script that automates the above process:
         python partition_dataset.py -x -i [PATH_TO_IMAGES_FOLDER] -r 0.1
 
         # For example
-        # python partition_dataset.py -x -i C:/Users/sglvladi/Documents/Tensorflow/workspace/training_demo/images -r 0.1
+        # python partition_dataset.py -x -i C:/Users/dpark/Documents/Tensorflow/workspace/training_demo/images -r 0.1
 
 Once the script has finished, two new folders should have been created under ``training_demo/images``,
 namely ``training_demo/images/train`` and ``training_demo/images/test``, containing 90% and 10% of
@@ -352,8 +352,8 @@ To do this we can write a simple script that iterates through all ``*.xml`` file
         python generate_tfrecord.py -x [PATH_TO_IMAGES_FOLDER]/test -l [PATH_TO_ANNOTATIONS_FOLDER]/label_map.pbtxt -o [PATH_TO_ANNOTATIONS_FOLDER]/test.record
 
         # For example
-        # python generate_tfrecord.py -x C:/Users/sglvladi/Documents/Tensorflow/workspace/training_demo/images/train -l C:/Users/sglvladi/Documents/Tensorflow/workspace/training_demo/annotations/label_map.pbtxt -o C:/Users/sglvladi/Documents/Tensorflow/workspace/training_demo/annotations/train.record
-        # python generate_tfrecord.py -x C:/Users/sglvladi/Documents/Tensorflow/workspace/training_demo/images/test -l C:/Users/sglvladi/Documents/Tensorflow2/workspace/training_demo/annotations/label_map.pbtxt -o C:/Users/sglvladi/Documents/Tensorflow/workspace/training_demo/annotations/test.record
+        # python generate_tfrecord.py -x C:/Users/dp/Documents/Tensorflow/workspace/training_demo/images/train -l C:/Users/dp/Documents/Tensorflow/workspace/training_demo/annotations/label_map.pbtxt -o C:/Users/dp/Documents/Tensorflow/workspace/training_demo/annotations/train.record
+        # python generate_tfrecord.py -x C:/Users/dp/Documents/Tensorflow/workspace/training_demo/images/test -l C:/Users/dp/Documents/Tensorflow2/workspace/training_demo/annotations/label_map.pbtxt -o C:/Users/dp/Documents/Tensorflow/workspace/training_demo/annotations/test.record
 
 Once the above is done, there should be 2 new files under the ``training_demo/annotations`` folder, named ``test.record`` and ``train.record``, respectively.
 
@@ -558,16 +558,16 @@ The steps to run the evaluation are outlined below:
     .. code-block:: default
 
         ...
-        WARNING:tensorflow:From C:\Users\sglvladi\Anaconda3\envs\tf2\lib\site-packages\object_detection\inputs.py:79: sparse_to_dense (from tensorflow.python.ops.sparse_ops) is deprecated and will be removed in a future version.
+        WARNING:tensorflow:From C:\Users\dp\Anaconda3\envs\tf2\lib\site-packages\object_detection\inputs.py:79: sparse_to_dense (from tensorflow.python.ops.sparse_ops) is deprecated and will be removed in a future version.
         Instructions for updating:
         Create a `tf.sparse.SparseTensor` and use `tf.sparse.to_dense` instead.
-        W0716 05:44:10.059399 17144 deprecation.py:317] From C:\Users\sglvladi\Anaconda3\envs\tf2\lib\site-packages\object_detection\inputs.py:79: sparse_to_dense (from tensorflow.python.ops.sparse_ops) is deprecated and will be removed in a future version.
+        W0716 05:44:10.059399 17144 deprecation.py:317] From C:\Users\dp\Anaconda3\envs\tf2\lib\site-packages\object_detection\inputs.py:79: sparse_to_dense (from tensorflow.python.ops.sparse_ops) is deprecated and will be removed in a future version.
         Instructions for updating:
         Create a `tf.sparse.SparseTensor` and use `tf.sparse.to_dense` instead.
-        WARNING:tensorflow:From C:\Users\sglvladi\Anaconda3\envs\tf2\lib\site-packages\object_detection\inputs.py:259: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+        WARNING:tensorflow:From C:\Users\dp\Anaconda3\envs\tf2\lib\site-packages\object_detection\inputs.py:259: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
         Instructions for updating:
         Use `tf.cast` instead.
-        W0716 05:44:12.383937 17144 deprecation.py:317] From C:\Users\sglvladi\Anaconda3\envs\tf2\lib\site-packages\object_detection\inputs.py:259: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+        W0716 05:44:12.383937 17144 deprecation.py:317] From C:\Users\dp\Anaconda3\envs\tf2\lib\site-packages\object_detection\inputs.py:259: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
         Instructions for updating:
         Use `tf.cast` instead.
         INFO:tensorflow:Waiting for new checkpoint at models/my_ssd_resnet50_v1_fpn
@@ -664,12 +664,12 @@ This model can then be used to perform inference.
         Traceback (most recent call last):
           File ".\exporter_main_v2.py", line 126, in <module>
             app.run(main)
-          File "C:\Users\sglvladi\Anaconda3\envs\tf2\lib\site-packages\absl\app.py", line 299, in run
+          File "C:\Users\dp\Anaconda3\envs\tf2\lib\site-packages\absl\app.py", line 299, in run
             _run_main(main, args)
           ...
-          File "C:\Users\sglvladi\Anaconda3\envs\tf2\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 1627, in get_losses_for
+          File "C:\Users\dp\Anaconda3\envs\tf2\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 1627, in get_losses_for
             reachable = tf_utils.get_reachable_from_inputs(inputs, losses)
-          File "C:\Users\sglvladi\Anaconda3\envs\tf2\lib\site-packages\tensorflow\python\keras\utils\tf_utils.py", line 140, in get_reachable_from_inputs
+          File "C:\Users\dp\Anaconda3\envs\tf2\lib\site-packages\tensorflow\python\keras\utils\tf_utils.py", line 140, in get_reachable_from_inputs
             raise TypeError('Expected Operation, Variable, or Tensor, got ' + str(x))
         TypeError: Expected Operation, Variable, or Tensor, got level_5
 
