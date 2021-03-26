@@ -1,0 +1,169 @@
+  594  /home/uv/tag/tag/bin/python3.6 /home/uv/tag/workspace/training_demo/model_main_tf2.py
+  607  /home/uv/anaconda3/envs/tf2-gpu/bin/python /home/uv/tag/workspace/training_demo/exporter_main_v2.py
+  609  /home/uv/tag_virtualenv/tag_virtualenv/bin/python /home/uv/tag_virtualenv/tag_virtualenv/workspace/training_demo/model_main_tf2.py
+  610  /home/uv/tag_virtualenv/tag_virtualenv/bin/python /home/uv/tag_virtualenv/tag_virtualenv/workspace/training_demo/mnist.py
+  611  /home/uv/tag_virtualenv/tag_virtualenv/bin/python /home/uv/tag_virtualenv/tag_virtualenv/workspace/training_demo/object_detection/utils/label_map_util.py
+  612  /home/uv/tag_virtualenv/tag_virtualenv/bin/python /home/uv/tag_virtualenv/tag_virtualenv/workspace/training_demo/model_main_tf2.py
+  618  python3
+  619  history|grep python
+  620  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn
+  631  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn
+  650  /home/uv/tag_virtualenv/tag_virtualenv/bin/python /home/uv/tag_virtualenv/tag_virtualenv/workspace/training_demo/model_main_tf2.py
+  663  /home/uv/anaconda3/envs/pip-tfgpu/bin/python /home/uv/tag_conda/mnist.py
+  664  /home/uv/anaconda3/envs/pip-tfgpu/bin/python /home/uv/tag_conda/workspace/training_demo/model_main_tf2.py
+  669  /home/uv/anaconda3/envs/pip-tfgpu/bin/python /home/uv/.vscode/extensions/ms-python.python-2021.2.636928669/pythonFiles/pyvsc-run-isolated.py /home/uv/.vscode/extensions/ms-python.python-2021.2.636928669/pythonFiles/shell_exec.py conda install --name pip-tfgpu ipykernel -y /tmp/tmp-18341x7nyC8nm9r56.log
+  680  python3 -m venv .venv
+  684  virtualenv -p python3 tag_virtualenv
+  707  history|grep python
+  708  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn
+  738  python setup.py build
+  742  python pip install git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI"
+  744  python pip install git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI
+  749  python PythonAPI/setup.py build_ext install
+  751  python PythonAPI/setup.py build_ext install
+  756  history|grep python
+  757  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn
+  759  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn
+  761  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn
+  765  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn
+  767  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn
+  769  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn
+  779  python
+  783  python mnist.py 
+  788  history|grep python
+  789  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn
+  792  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn
+  799  history|grep python
+  804  history|grep python
+  805  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn
+  807  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn
+  809  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn
+  831  python mnist.py
+  835  history|grep python
+  836  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn
+  837  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn --num_train_steps=10000
+  869  history|grep python
+  870  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn --num_train_steps=10000
+  871  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn --num_train_steps=10000 > cuda.log
+  872  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn --num_train_steps=10000 >2 cuda.log
+  873  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn --num_train_steps=10000 2> cuda.log
+  874  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn --num_train_steps=10000 > cuda-st.log 2> cuda.log --alsologtostderr --override_eval_num_epochs=100
+  893  python 
+  993  sudo apt-get install python3-distutils
+ 1027  /home/uv/anaconda3/envs/pip-tfgpu/bin/python /home/uv/tag_conda/workspace/training_demo/tfrecords.py
+ 1042  history|grep python
+ 1048  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn --num_train_steps=10000 > cuda-st.log 2> cuda.log --alsologtostderr --override_eval_num_epochs=100
+ 1049  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn --num_train_steps=10000
+ 1050  python
+ 1052  python mnist.py 
+ 1053  history|grep python
+ 1054  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn --num_train_steps=10000 > cuda-st.log 2> cuda.log --alsologtostderr --override_eval_num_epochs=100
+ 1055  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn --num_train_steps=10000 --override_eval_num_epochs=100
+ 1058  history|grep python
+ 1086  history|grep python
+ 1098  python mnist.py 
+ 1101  history|grep python
+ 1102  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn --num_train_steps=10000 > cuda-st.log 2> cuda.log --alsologtostderr --override_eval_num_epochs=100
+ 1116  python -m jupyterlab
+ 1119  history|grep python
+ 1141  history|grep python
+ 1142  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn --num_train_steps=10000 > cuda-st.log 2> cuda.log --alsologtostderr --override_eval_num_epochs=100
+ 1143  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn --num_train_steps=10000  --override_eval_num_epochs=100
+ 1144  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn
+ 1147  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn
+ 1155  python -m jupyterlab
+ 1166  history|grep python
+ 1177  protoc object_detection/protos/*.proto --python_out=.
+ 1191  python -m pip install .
+ 1192  python object_detection/builders/model_builder_tf2_test.py
+ 1203  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn
+ 1205  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn
+ 1206  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn --num_eval_steps={500}
+ 1207  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn --num_eval_steps=500 --num_train_steps=10000
+ 1209  python model_main_tf2.py --model_dir=models/my_mobilenet_v2_fpn --pipeline_config_path=models/my_mobilenet_v2_fpn/pipeline.config --checkpoint_dir=models/my_mobilenet_v2_fpn --num_eval_steps=500 --num_train_steps=10000
+ 1216  conda create -n tensorflow pip python=3.8
+ 1217  conda create -n tensorflow pip python=3
+ 1218  conda create -n tf-cpu pip python=3
+ 1228  conda create -n tf2-cpu python=3
+ 1229  conda create -n tf2-cpu tensorflow python=3
+ 1231  python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
+ 1233  protoc object_detection/protos/*.proto --python_out=.
+ 1241  python -m pip install .
+ 1273  conda create -n tf2-gpu python=3
+ 1283  python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))
+ 1287  python --version
+ 1288  conda create --name tf2-gpu-py38 python=3.8
+ 1291  python --version
+ 1294  python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))
+ 1297  python
+ 1298  python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))
+ 1301  python
+ 1305  python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))
+ 1314  protoc object_detection/protos/*.proto --python_out=.
+ 1331  python -m pip install .
+ 1332  python object_detection/builders/model_builder_tf2_test.py
+ 1336  python mnist.py 
+ 1367  sudo pip install -r requirements/requirements-linux-python3.txt
+ 1368  sudo -H pip install -r requirements/requirements-linux-python3.txt
+ 1369  sudo -H pip3 install -r requirements/requirements-linux-python3.txt
+ 1371  python labelImg.py
+ 1372  python labelImg.py ../workspace/training_ses1/images
+ 1390  python model_main_tf2.py --model_dir=models/my_ssd_resnet50_v1_fpn --pipeline_config_path=models/my_ssd_resnet50_v1_fpn/pipeline.config
+ 1391  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config
+ 1405  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config
+ 1416  history|grep python > python.history
+ 1427  python .\exporter_main_v2.py --input_type image_tensor --pipeline_config_path .\models\my_efficientdet_d1\pipeline.config --trained_checkpoint_dir .\models\my_efficientdet_d1\ --output_directory .\exported-models\my_model
+ 1428  python exporter_main_v2.py --input_type image_tensor --pipeline_config_path .\models\my_efficientdet_d1\pipeline.config --trained_checkpoint_dir .\models\my_efficientdet_d1\ --output_directory .\exported-models\my_model
+ 1429  python exporter_main_v2.py --input_type image_tensor --pipeline_config_path models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config --trained_checkpoint_dir models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --output_directory exported-models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn
+ 1430  python model_main_tf2.py --model_dir=models/my_ssd_resnet50_v1_fpn --pipeline_config_path=models/my_ssd_resnet50_v1_fpn/pipeline.config --checkpoint_dir=models/my_ssd_resnet50_v1_fpn
+ 1431  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config --checkpoint_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn
+ 1432  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config --checkpoint_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn 2> evalsteps500.log
+ 1433  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config --checkpoint_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn 2> evalsteps600.log
+ 1434  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config --checkpoint_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn
+ 1442  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config
+ 1443  python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
+ 1455  python object_detection/builders/model_builder_tf2_test.py
+ 1460  history|grep python
+ 1462  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config
+ 1468  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config
+ 1469  history|grep python
+ 1470  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config > cuda-st.log 2> cuda.log --alsologtostderr
+ 1471  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config 2> cuda.log --alsologtostderr
+ 1473  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config 2> cuda.log --alsologtostderr
+ 1474  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config --alsologtostderr
+ 1475  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config 2> cuda.log --alsologtostderr
+ 1480  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config --alsologtostderr
+ 1482  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config --alsologtostderr
+ 1485  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config --alsologtostderr
+ 1486  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config --alsologtostderr --checkpoint_dir=models/my_mobilenet_v2_fpn --num_eval_steps=500 --num_train_steps=1000
+ 1487  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config --alsologtostderr --checkpoint_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --num_eval_steps=500 --num_train_steps=1000
+ 1488  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config --alsologtostderr --checkpoint_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --num_eval_steps=500 --num_train_steps=1000 2> evalsteps500.log
+ 1489  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config --alsologtostderr --num_eval_steps=500 --num_train_steps=1000 2> evalsteps500.log
+ 1490  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config --alsologtostderr --checkpoint_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --num_eval_steps=500 --num_train_steps=1000 2> cuda.log
+ 1491  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config --alsologtostderr --num_eval_steps=500 --num_train_steps=1000 2> cuda.log
+ 1492  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config --alsologtostderr --num_eval_steps=500 --num_train_steps=1000 
+ 1493  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config --alsologtostderr 
+ 1503  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config 
+ 1504  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config 2> trainsteps2000.log 
+ 1505  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config 2> trainsteps8000.log 
+ 1511  history|grep python
+ 1512  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config 2> trainsteps2000.log 
+ 1513  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config 2> trainsteps500.log 
+ 1514  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config 2> trainsteps600.log 
+ 1515  python model_main_tf2.py --model_dir=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn --pipeline_config_path=models/my_ssd_mobilenet_v2_fpnlite_640x640_coco17_fpn/pipeline.config 
+ 1542  history|grep python
+ 1543  python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))
+ 1546  python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))
+ 1552  protoc object_detection/protos/*.proto --python_out=.
+ 1553  python object_detection/builders/model_builder_tf2_test.py
+ 1559  python view_record.py data/ibug.record 
+ 1562  python view_record.py data/ibug.record 
+ 1563  python view_record.py --record data/ibug.record 
+ 1569  python --version
+ 1570  python tfviewer.py --overlay classification '/home/uv/tf2gpu/workspace/training_demo/annotations/test.record' 
+ 1572  python tfviewer.py --overlay classification '/home/uv/tf2gpu/workspace/training_demo/annotations/test.record' 
+ 1573  python tfviewer.py '/home/uv/tf2gpu/workspace/training_demo/annotations/test.record' 
+ 1579  python tfviewer.py '/home/uv/tf2gpu/workspace/training_demo/annotations/test.record' 
+ 1581  python tfviewer.py '/home/uv/tf2gpu/workspace/training_demo/annotations/test.record' 
+ 1582  python tfviewer.py '/home/uv/tf2gpu/workspace/training_demo/annotations/train.record' 
+ 1593  history|grep python > python.history
