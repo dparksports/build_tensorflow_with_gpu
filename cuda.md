@@ -45,7 +45,7 @@ Reload the file:
 
 ## Install Tensorflow2 with GPU
 
-First of all, it is always recommended to use virtual environments. If you do not know what it is, google it or use my this gist [virtual environments](https://gist.github.com/raulqf/2ca75d7fef2824f03de9761b99b59371) but could be outdated.
+First of all, it is always recommended to use virtual environments. 
 
 Once created the virtual environment, activate it and install Tensorflow using PyPy:
     
