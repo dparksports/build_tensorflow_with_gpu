@@ -34,7 +34,7 @@ Note that I am **not** interested in running an outdated Ubuntu version (this in
 ## Prerequisites
 
 ### Installing the NVIDIA driver, CUDA and cuDNN
-[Please refer to my instructions here](https://gist.github.com/kmhofmann/cee7c0053da8cc09d62d74a6a4c1c5e4).
+[Please refer to my instructions here](https://github.com/dparksports/build_tensorflow_with_gpu/blob/main/cuda.md).
 
 ### System packages
 According to the [official instructions](https://www.tensorflow.org/install/source), TensorFlow requires Python and pip:
