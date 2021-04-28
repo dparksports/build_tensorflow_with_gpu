@@ -6,7 +6,7 @@ Now that you have installed TensorFlow, it is time to install the TensorFlow Obj
 Downloading the TensorFlow Model Garden
 ***************************************
 
-- Create a new folder under a path of your choice and name it ``TensorFlow``. (e.g. ``C:\Users\sglvladi\Documents\TensorFlow``).
+- Create a new folder under a path of your choice and name it ``TensorFlow``.
 - From your `Terminal` ``cd`` into the ``TensorFlow`` directory.
 - To download the models you can either use `Git <https://git-scm.com/downloads>`_ to clone the `TensorFlow Models repository <https://github.com/tensorflow/models>`_ inside the ``TensorFlow`` folder, or you can simply download it as a `ZIP <https://github.com/tensorflow/models/archive/master.zip>`_ and extract its contents inside the ``TensorFlow`` folder. To keep things consistent, in the latter case you will have to rename the extracted folder ``models-master`` to ``models``.
 - You should now have a single folder named ``models`` under your ``TensorFlow`` folder, which contains another 4 folders as such:
@@ -47,14 +47,6 @@ This should be done as follows:
 
     .. tabs::
 
-        .. tab:: Windows Powershell
-
-            .. code-block:: default
-
-                # From within TensorFlow/models/research/
-                Get-ChildItem object_detection/protos/*.proto | foreach {protoc "object_detection/protos/$($_.Name)" --python_out=.}
-
-
         .. tab:: Command Prompt
 
             .. code-block:: default
@@ -63,29 +55,12 @@ This should be done as follows:
                     for /f %i in ('dir /b object_detection\protos\*.proto') do protoc object_detection\protos\%i --python_out=.
 
 
-.. [#] NOTE: You MUST open a new `Terminal` for the changes in the environment variables to take effect.
-
-
 .. _tf_models_install_coco:
 
 COCO API installation
 *********************
 
 As of TensorFlow 2.x, the ``pycocotools`` package is listed as `a dependency of the Object Detection API <https://github.com/tensorflow/models/blob/master/research/object_detection/packages/tf2/setup.py>`_. Ideally, this package should get installed when installing the Object Detection API as documented in the :ref:`tf_models_install_object_detection` section below, however the installation can fail for various reasons and therefore it is simpler to just install the package beforehand, in which case later installation will be skipped.
-
-.. tabs::
-
-    .. tab:: Windows
-
-        Run the following command to install ``pycocotools`` with Windows support:
-
-        .. code-block:: default
-
-            pip install cython
-            pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
-
-
-        Note that, according to the `package's instructions <https://github.com/philferriere/cocoapi#this-clones-readme>`_, Visual C++ 2015 build tools must be installed and on your path. If they are not, make sure to install them from `here <https://go.microsoft.com/fwlink/?LinkId=691126>`__.
 
     .. tab:: Linux
 
@@ -116,36 +91,6 @@ Installation of the Object Detection API is achieved by installing the ``object_
     # From within TensorFlow/models/research/
     cp object_detection/packages/tf2/setup.py .
     python -m pip install .
-
-.. note::
-
-    During the above installation, you may observe the following error:
-
-        .. code-block:: default
-
-            ERROR: Command errored out with exit status 1:
-                 command: 'C:\Users\sglvladi\Anaconda3\envs\tf2\python.exe' -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\sglvladi\\AppData\\Local\\Temp\\pip-install-yn46ecei\\pycocotools\\setup.py'"'"'; __file__='"'"'C:\\Users\\sglvladi\\AppData\\Local\\Temp\\pip-install-yn46ecei\\pycocotools\\setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\sglvladi\AppData\Local\Temp\pip-record-wpn7b6qo\install-record.txt' --single-version-externally-managed --compile --install-headers 'C:\Users\sglvladi\Anaconda3\envs\tf2\Include\pycocotools'
-                     cwd: C:\Users\sglvladi\AppData\Local\Temp\pip-install-yn46ecei\pycocotools\
-                Complete output (14 lines):
-                running install
-                running build
-                running build_py
-                creating build
-                creating build\lib.win-amd64-3.8
-                creating build\lib.win-amd64-3.8\pycocotools
-                copying pycocotools\coco.py -> build\lib.win-amd64-3.8\pycocotools
-                copying pycocotools\cocoeval.py -> build\lib.win-amd64-3.8\pycocotools
-                copying pycocotools\mask.py -> build\lib.win-amd64-3.8\pycocotools
-                copying pycocotools\__init__.py -> build\lib.win-amd64-3.8\pycocotools
-                running build_ext
-                skipping 'pycocotools\_mask.c' Cython extension (up-to-date)
-                building 'pycocotools._mask' extension
-                error: Microsoft Visual C++ 14.0 is required. Get it with "Build Tools for Visual Studio": https://visualstudio.microsoft.com/downloads/
-                ----------------------------------------
-            ERROR: Command errored out with exit status 1: 'C:\Users\sglvladi\Anaconda3\envs\tf2\python.exe' -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\sglvladi\\AppData\\Local\\Temp\\pip-install-yn46ecei\\pycocotools\\setup.py'"'"'; __file__='"'"'C:\\Users\\sglvladi\\AppData\\Local\\Temp\\pip-install-yn46ecei\\pycocotools\\setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\sglvladi\AppData\Local\Temp\pip-record-wpn7b6qo\install-record.txt' --single-version-externally-managed --compile --install-headers 'C:\Users\sglvladi\Anaconda3\envs\tf2\Include\pycocotools' Check the logs for full command output.
-
-    This is caused because installation of the ``pycocotools`` package has failed. To fix this have a look at the :ref:`tf_models_install_coco` section and rerun the above commands.
-
 
 .. _test_tf_models:
 
