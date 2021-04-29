@@ -1,0 +1,86 @@
+(tfnightly) rq@g:~/tf241$  /usr/bin/env /home/rq/miniconda3/envs/tfnightly/bin/python /home/rq/.vscode/extensions/ms-python.python-2021.4.765268190/pythonFiles/lib/python/debugpy/launcher 33119 -- /home/rq/tf241/tf2-retrain.py 
+TF version: 2.6.0-dev20210427
+Hub version: 0.12.0
+WARNING:tensorflow:From /home/rq/tf241/tf2-retrain.py:12: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+2021-04-29 07:34:19.411011: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-04-29 07:34:19.442523: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-29 07:34:19.474268: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-29 07:34:19.475256: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-29 07:34:20.144355: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-29 07:34:20.144785: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-29 07:34:20.145314: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-29 07:34:20.145738: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1418] Created device /device:GPU:0 with 6352 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 2070 Super, pci bus id: 0000:01:00.0, compute capability: 7.5
+GPU is available
+Selected model: mobilenet_v3_small_100_224 : https://tfhub.dev/google/imagenet/mobilenet_v3_small_100_224/feature_vector/5
+Input size (224, 224)
+Found 731 images belonging to 5 classes.
+Found 2939 images belonging to 5 classes.
+Building model with https://tfhub.dev/google/imagenet/mobilenet_v3_small_100_224/feature_vector/5
+2021-04-29 07:34:21.865566: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-29 07:34:21.866045: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-29 07:34:21.866666: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-29 07:34:21.867595: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-29 07:34:21.868034: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-29 07:34:21.868430: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-29 07:34:21.868898: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-29 07:34:21.869301: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-29 07:34:21.869663: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1418] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 6352 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 2070 Super, pci bus id: 0000:01:00.0, compute capability: 7.5
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+keras_layer (KerasLayer)     (None, 1024)              1529968   
+_________________________________________________________________
+dropout (Dropout)            (None, 1024)              0         
+_________________________________________________________________
+dense (Dense)                (None, 5)                 5125      
+=================================================================
+Total params: 1,535,093
+Trainable params: 5,125
+Non-trainable params: 1,529,968
+_________________________________________________________________
+/home/rq/miniconda3/envs/tfnightly/lib/python3.8/site-packages/tensorflow/python/keras/optimizer_v2/optimizer_v2.py:374: UserWarning: The `lr` argument is deprecated, use `learning_rate` instead.
+  warnings.warn(
+2021-04-29 07:34:23.900964: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:180] None of the MLIR Optimization Passes are enabled (registered 2)
+Epoch 1/5
+2021-04-29 07:34:27.852072: I tensorflow/stream_executor/cuda/cuda_dnn.cc:368] Loaded cuDNN version 8200
+91/91 [==============================] - 15s 109ms/step - loss: 0.9246 - accuracy: 0.7410 - val_loss: 0.7211 - val_accuracy: 0.8580
+Epoch 2/5
+91/91 [==============================] - 8s 93ms/step - loss: 0.6813 - accuracy: 0.8786 - val_loss: 0.6872 - val_accuracy: 0.8622
+Epoch 3/5
+91/91 [==============================] - 8s 91ms/step - loss: 0.6337 - accuracy: 0.9140 - val_loss: 0.6703 - val_accuracy: 0.8693
+Epoch 4/5
+91/91 [==============================] - 8s 92ms/step - loss: 0.6131 - accuracy: 0.9209 - val_loss: 0.6660 - val_accuracy: 0.8693
+Epoch 5/5
+91/91 [==============================] - 8s 92ms/step - loss: 0.5968 - accuracy: 0.9267 - val_loss: 0.6666 - val_accuracy: 0.8793
+True label: daisy
+Predicted label: daisy
+2021-04-29 07:35:23.011856: W tensorflow/python/util/util.cc:348] Sets are not currently considered sequences, but this may change in the future, so consider avoiding using them.
+WARNING:tensorflow:FOR KERAS USERS: The object that you are saving contains one or more Keras models or layers. If you are loading the SavedModel with `tf.keras.models.load_model`, continue reading (otherwise, you may ignore the following instructions). Please change your code to save with `tf.keras.models.save_model` or `model.save`, and confirm that the file "keras.metadata" exists in the export directory. In the future, Keras will only load the SavedModels that have this file. In other words, `tf.saved_model.save` will no longer write SavedModels that can be recovered as Keras models (this will apply in TF 2.5).
+
+FOR DEVS: If you are overwriting _tracking_metadata in your class, this property has been used to save metadata in the SavedModel. The metadta field will be deprecated soon, so please move the metadata to a different file.
+WARNING:tensorflow:FOR KERAS USERS: The object that you are saving contains one or more Keras models or layers. If you are loading the SavedModel with `tf.keras.models.load_model`, continue reading (otherwise, you may ignore the following instructions). Please change your code to save with `tf.keras.models.save_model` or `model.save`, and confirm that the file "keras.metadata" exists in the export directory. In the future, Keras will only load the SavedModels that have this file. In other words, `tf.saved_model.save` will no longer write SavedModels that can be recovered as Keras models (this will apply in TF 2.5).
+
+FOR DEVS: If you are overwriting _tracking_metadata in your class, this property has been used to save metadata in the SavedModel. The metadta field will be deprecated soon, so please move the metadata to a different file.
+2021-04-29 07:35:28.899787: W tensorflow/compiler/mlir/lite/python/tf_tfl_flatbuffer_helpers.cc:345] Ignored output_format.
+2021-04-29 07:35:28.899809: W tensorflow/compiler/mlir/lite/python/tf_tfl_flatbuffer_helpers.cc:348] Ignored drop_control_dependency.
+2021-04-29 07:35:28.899813: W tensorflow/compiler/mlir/lite/python/tf_tfl_flatbuffer_helpers.cc:354] Ignored change_concat_input_ranges.
+2021-04-29 07:35:28.900587: I tensorflow/cc/saved_model/reader.cc:38] Reading SavedModel from: /tmp/saved_flowers_model_mobilenet_v3_small_100_224
+2021-04-29 07:35:28.912209: I tensorflow/cc/saved_model/reader.cc:90] Reading meta graph with tags { serve }
+2021-04-29 07:35:28.912238: I tensorflow/cc/saved_model/reader.cc:132] Reading SavedModel debug info (if present) from: /tmp/saved_flowers_model_mobilenet_v3_small_100_224
+2021-04-29 07:35:28.956374: I tensorflow/cc/saved_model/loader.cc:206] Restoring SavedModel bundle.
+2021-04-29 07:35:29.159810: I tensorflow/cc/saved_model/loader.cc:190] Running initialization op on SavedModel bundle at path: /tmp/saved_flowers_model_mobilenet_v3_small_100_224
+2021-04-29 07:35:29.216242: I tensorflow/cc/saved_model/loader.cc:277] SavedModel load for tags { serve }; Status: success: OK. Took 315656 microseconds.
+2021-04-29 07:35:29.377037: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:210] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2021-04-29 07:35:29.563743: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-29 07:35:29.564038: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-29 07:35:29.564249: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-29 07:35:29.564454: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-29 07:35:29.564603: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-29 07:35:29.564795: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1418] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 6352 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 2070 Super, pci bus id: 0000:01:00.0, compute capability: 7.5
+Wrote TFLite model of 6125896 bytes.
+TF Lite model agrees with original model on 50 of 50 examples (100%).
+TF Lite model is accurate on 49 of 50 examples (98%).
